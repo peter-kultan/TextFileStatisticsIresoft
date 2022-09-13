@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileStatisticsIresoft", "TextFileStatisticsIresoft\TextFileStatisticsIresoft.csproj", "{A39E2012-9565-424D-BCE6-C64254446D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A39E2012-9565-424D-BCE6-C64254446D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39E2012-9565-424D-BCE6-C64254446D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39E2012-9565-424D-BCE6-C64254446D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39E2012-9565-424D-BCE6-C64254446D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EE52403-6507-4B36-B547-312E7E1AE7BB}
+	EndGlobalSection
+EndGlobal
