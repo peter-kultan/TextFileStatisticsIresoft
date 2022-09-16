@@ -64,8 +64,8 @@ namespace TextFileStatisticsIresoft
         public int NumberOfSentences
         {
             get { return _numberOfSentences; }
-            set 
-            { 
+            set
+            {
                 _numberOfSentences = value;
                 OnPropertyChanged("NumberOfSentences");
             }
@@ -92,7 +92,7 @@ namespace TextFileStatisticsIresoft
                 return;
             }
 
-            using (var stream = OpenFile()) 
+            using (var stream = OpenFile())
                 while (!stream.EndOfStream)
                 {
                     var line = stream.ReadLine();
@@ -106,7 +106,7 @@ namespace TextFileStatisticsIresoft
 
                     NumberOfChars += line.Length;
 
-                    NumberOfSentences += line.Split(new char[] { '.', '!', '?' }).Where(x => x!= ".").Count();
+                    NumberOfSentences += line.Split(new char[] { '.', '!', '?' }).Where(x => x != ".").Count();
 
                     NumberOfWords += line.Split(new char[] { ',', ' ', '.' }).Count();
                 }
@@ -115,7 +115,7 @@ namespace TextFileStatisticsIresoft
         public IEnumerable<string> ReadLineByLine()
         {
             int actuallLine = 0;
-;            if (!File.Exists(InputFilePath))
+            ; if (!File.Exists(InputFilePath))
             {
                 yield break;
             }

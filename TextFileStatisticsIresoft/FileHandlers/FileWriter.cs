@@ -31,7 +31,7 @@ namespace TextFileStatisticsIresoft
 
         public void CreateFile()
         {
-            using (var stream =new StreamWriter(OutputFilePath))
+            using (var stream = new StreamWriter(OutputFilePath))
             {
                 stream.Write("");
             }
